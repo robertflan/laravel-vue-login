@@ -4,3 +4,18 @@
 
 @import 'elements/card';
 @import 'elements/transitions';
+.navbar-nav{
+    flex-direction: row !important;
+}
+.custom-nav .navbar-nav li{
+    padding: 0px 20px;
+}
+.header, .footer{
+    background: #563d7c !important;
+}
+.navbar-header a{
+    color: white !important ;
+}
+.footer{
+    padding-top: 40px;
+}
